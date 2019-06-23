@@ -40,9 +40,8 @@ class Artist
     end
   end
   
-  binding.pry
   def print_songs
-    self.all.each do |person| 
+    @@all.each do |person| 
       puts "#{person.name}"
     end
   end
