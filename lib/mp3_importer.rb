@@ -17,4 +17,7 @@ class MP3Importer
     new_list
   end
   
+  def import
+  end
+  
 end
