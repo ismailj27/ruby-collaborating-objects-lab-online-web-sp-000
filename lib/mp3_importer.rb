@@ -18,12 +18,9 @@ class MP3Importer
   end
   
   def import
-    
     @new_list.each do |d_filename|
       song.new_by_filename(d_filename)
     end
-  end
-    
   end
   
 end
