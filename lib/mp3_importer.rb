@@ -7,7 +7,8 @@ class MP3Importer
   end
   
   def files
-    Dir.entries('./spec/fixtures/mp3s')
+    
+    eachDir.entries('./spec/fixtures/mp3s')
   end
   
 end
