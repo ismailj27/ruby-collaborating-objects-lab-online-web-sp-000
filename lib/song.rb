@@ -15,6 +15,7 @@ class Song
     name = file_name.split(" - ")[0]
     song.artist = Artist.find_or_create_by_name(name)
     song.artist.songs << song
+    song
   end
   
 end
