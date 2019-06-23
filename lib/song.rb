@@ -19,7 +19,7 @@ class Song
   end
   
   def artist=(d_artist)
-    @artist = artist
+    song.artist = d_artist
   end
   
   def self.new_by_filename(file_name)
