@@ -4,10 +4,10 @@ class MP3Importer
   
   def initialize(path)
     @path = path
+    @new_list = []
   end
   
   def files
-    @new_list = []
     list = Dir.entries('./spec/fixtures/mp3s')
     list.each do |a_list| 
       if a_list.end_with? ".mp3"
