@@ -19,7 +19,7 @@ class MP3Importer
   
   def import
     @@new_list.each do |d_filename|
-      song.new_by_filename(d_filename)
+      Song.new_by_filename(d_filename)
     end
   end
   
