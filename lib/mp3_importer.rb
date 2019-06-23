@@ -18,6 +18,13 @@ class MP3Importer
   end
   
   def import
+    
+    @new_list.each do |d_filename| 
+      if a_list.end_with? ".mp3"
+        @new_list << a_list
+      end
+    end
+    
     @new_list
     song.new_by_filename(d_filename)
   end
