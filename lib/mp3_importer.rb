@@ -17,6 +17,7 @@ class MP3Importer
     @new_list
   end
   
+  binding.pry
   def import
     
   end
