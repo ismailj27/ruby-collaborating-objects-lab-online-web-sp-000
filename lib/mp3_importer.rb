@@ -8,7 +8,7 @@ class MP3Importer
   
   binding.pry
   def files
-    Dir.entries('./spec/fixtures')
+    Dir.entries('./spec/fixtures/mp3s')
   end
   
 end
