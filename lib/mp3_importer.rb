@@ -19,8 +19,8 @@ class MP3Importer
   
   def import
     
-    @new_list.each do |d_filename| 
-      if a_list.end_with? ".mp3"
+    @new_list.each do |d_filename|
+      
         @new_list << a_list
       end
     end
