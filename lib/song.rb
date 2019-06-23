@@ -19,7 +19,6 @@ class Song
   end
   
   def artist=(d_artist)
-    @instance_of_class_a.method
   end
   
   def self.new_by_filename(file_name)
