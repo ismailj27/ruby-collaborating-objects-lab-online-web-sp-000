@@ -6,12 +6,12 @@ class Song
     @artist = artist
   end
   
-  def name=(a_name)
-    @name = a_name
-  end
-  
   def name
     @name
+  end
+  
+  def name=(a_name)
+    @name = a_name
   end
   
   def artist
