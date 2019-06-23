@@ -7,8 +7,10 @@ class MP3Importer
   end
   
   def files
-    
-    eachDir.entries('./spec/fixtures/mp3s')
+    list = Dir.entries('./spec/fixtures/mp3s')
+    list.each do |person| 
+      puts "#{person.name}"
+    end
   end
   
 end
