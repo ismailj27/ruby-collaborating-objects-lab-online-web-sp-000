@@ -11,7 +11,8 @@ class MP3Importer
     list = Dir.entries('./spec/fixtures/mp3s')
     list.each do |a_list| 
       if a_list.end_with? ".mp3"
-        
+        new_list << a_list
+      end
     end
   end
   
