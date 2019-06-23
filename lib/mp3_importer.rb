@@ -6,7 +6,6 @@ class MP3Importer
     @path = path
   end
   
-  binding.pry
   def files
     Dir.entries('./spec/fixtures/mp3s')
   end
