@@ -2,7 +2,7 @@ class MP3Importer
   
   attr_accessor :path, :song, :new_list
   
-  @@new_list = []
+  @new_list = []
   def initialize(path)
     @path = path
   end
@@ -11,10 +11,10 @@ class MP3Importer
     list = Dir.entries('./spec/fixtures/mp3s')
     list.each do |a_list| 
       if a_list.end_with? ".mp3"
-        @@new_list << a_list
+        @new_list << a_list
       end
     end
-    @@new_list
+    @new_list
   end
   
   binding.pry
