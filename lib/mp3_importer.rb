@@ -14,6 +14,7 @@ class MP3Importer
         @new_list << a_list
       end
     end
+    binding.pry
     @new_list
   end
   
