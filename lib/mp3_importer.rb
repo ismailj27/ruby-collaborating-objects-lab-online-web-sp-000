@@ -7,7 +7,7 @@ class MP3Importer
   end
   
   def files
-    @ew_list = []
+    new_list = []
     list = Dir.entries('./spec/fixtures/mp3s')
     list.each do |a_list| 
       if a_list.end_with? ".mp3"
