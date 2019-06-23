@@ -2,12 +2,12 @@ class MP3Importer
   
   attr_accessor :path, :song, :new_list
   
-  @new_list = []
   def initialize(path)
     @path = path
   end
   
   def files
+    @new_list = []
     list = Dir.entries('./spec/fixtures/mp3s')
     list.each do |a_list| 
       if a_list.end_with? ".mp3"
