@@ -20,13 +20,10 @@ class MP3Importer
   def import
     
     @new_list.each do |d_filename|
-      
-        @new_list << a_list
-      end
+      song.new_by_filename(d_filename)
     end
+  end
     
-    @new_list
-    song.new_by_filename(d_filename)
   end
   
 end
